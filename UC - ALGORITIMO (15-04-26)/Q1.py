@@ -10,6 +10,6 @@ def calcular_media():
         print(f"Média final: {media:.2f}")
 
     except ValueError:
-        print("As notas devem ser numéricas e encerrar a execução.")
+        print("As notas devem ser numéros.")
 
 calcular_media()
